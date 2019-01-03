@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	  <link rel="stylesheet" href="css.css" type="text/css">
+
+    <title>JNE</title>
+	  <style>
+      .carousel-item {
+        transition: transform 2s ease, opacity .5s ease;
+      }
+    </style>
+  </head>
+  <body>
+	  <header>
+	<div class="wrapper afterclean">
+	<div class="logo">
+		<h1><a href="index.html"><img src="LOGO JNE.png" width="10%" height="30%"></a></h1>
+	</div></div>
+	<nav>
+	<ul>
+		<li>
+		<a href="index.html">Beranda</a></li>
+		<li>
+		<a href="perusahaan.html">Perusahaan</a></li>
+		<li>
+		<a class href="solusi.html">solusi dan bisnis</a></li>
+		<li>
+			<a class href="karir.html">Karir</a></li>
+	</nav>
+	<hr width="100%" align="center" size="10" noshade="noshade" />
+
+</header>
+	   <div class="container">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="promo-1008568537111725.jpg" width="100%" height="100%" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img src="promo-1049081837164304.jpg" width="100%" height="100%" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img src="promo-1204502906161755.jpg" width="100%" height="100%" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+	 <div id="lacak">
+		 <center><h3>LACAK KIRIMAN SAYA</h3>
+	  <form method="post" action="">
+		<textarea name="lacak" rows="2" cols="40"></textarea>
+		 <br />
+		 <br />
+		 <input type="submit" name="submit" value="kirim data" /></center>
+		 </form>
+	  </div>
+	  <div id="lacak2"><center>
+	  	<div class="widget">
+			<h3><center>TARIF KIRIMAN</h3>
+			<fieldset>
+					<div class="controlgroup">
+						<select id="dari">
+							<option>Dari</option>
+							<option>Aceh</option>
+							<option>Bandung</option>
+							<option>Bekasi</option>
+							<option>Cirebon</option>
+							<option>Denpasar</option>
+							<option>Gorontalo</option>
+							<option>Jakarta</option>
+							<option>Kupang</option>
+							<option>Makassar</option>
+							<option>Palembang</option>
+							<option>Semarang</option>
+							<option>Surabaya</option>
+							<option>Tangerang</option>
+							<option>Tegal</option>
+						</select>
+						<select id="tujuan">
+							<option>Tujuan</option>
+							<option>Aceh</option>
+							<option>Bandung</option>
+							<option>Bekasi</option>
+							<option>Cirebon</option>
+							<option>Denpasar</option>
+							<option>Gorontalo</option>
+							<option>Jakarta</option>
+							<option>Kupang</option>
+							<option>Makassar</option>
+							<option>Palembang</option>
+							<option>Semarang</option>
+							<option>Surabaya</option>
+							<option>Tangerang</option>
+							<option>Tegal</option>
+						</select>
+						<select id="berat">
+							<option>Berat</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							
+						</select>
+						<form method="post" action="">
+						<br />
+							<input type="submit" name="submit" value="Check" /></form>
+					</div>
+			</fieldset>
+	   	</div>
+	  </div></center>
+    
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .ui-controlgroup-vertical {
+      width: 150px;
+    }
+    .ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+    .ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+      text-align: center;
+    }
+    #car-type-button {
+      width: 120px;
+    }
+    .ui-controlgroup-horizontal .ui-spinner-input {
+      width: 20px;
+    }
+  </style>
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+	 <script>
+	 $( function() {
+     $( ".controlgroup" ).controlgroup()
+	 } );
+	 </script>
+	  
+<footer>
+  <div id="column">
+  <!--<div class="bg_footer" style="float:left; width:70%; height:400px; margin-left:25.3%; position:absolute">&nbsp;</div>-->
+    <div class="wrapper afterclear">
+      <div class="left" type-anim="top" anim-delay="1.2">
+        <div class="logo"><a href="index.html"><img src="logo-detail-41.png" width="136" height="139" alt=""></a></div>
+        <p><strong>KANTOR PUSAT</strong><br>
+         </p><p>Jl. Tomang Raya No. 11<br>
+Jakarta Barat 11440<br>
+Indonesia</p>
+
+<p>Contact center. (021) 2927 8888<br>
+Office. (62-21) 566 5262<br>
+Fax. (62-21) 567 1413<br>
+	Email. customercare@jne.co.id</p>
+		</div>
+	  </div>
+	</div>
+	<div id="column">
+		<p><h2><u>Perusahaan</h2></u>
+		<ul>
+			<li><h4>Profil Perusahaan</h4></li>
+			<li><h4>Penghargaan</h4></li>
+			<li><h4>CSR</h4></li>
+		</ul></p>
+	
+	</div>
+	<div id="column">
+	<p><h2><u>Solusi dan Bisnis</u></h2>
+		<ul>
+			<li><h4>Kemitraan</h4></li>
+			<li><h4>Corporate</h4></li>
+			<li><h4>Tentang Indonesia</h4></li>
+		</ul></p>
+	</div>
+	<div id="column">
+	<p><h2><u>Terkait</u></h2>
+		<ul>
+			<li><h4>Trace & Tracking</h4></li>
+			<li><h4>Shipping Rates</h4></li>
+			<li><h4>Our Networks</h4></li>
+			<li><h4>Berita</h4></li>	
+		</ul></p>
+	</div>
+<div id="column2">
+<p>copyright&copy;BY ISMOYO PUTRO K3517031</p>
+</div>
+        <p></p>
+        <!--
+        Jl. Tomang Raya No. 11 Jakarta Barat, 11440  Indonesia
+        Direct Line           : 021 2939 2738
+        Hunting Line       : 021 566 5262 ext. 38105 & 38107
+        -->
+ 
+</footer>
+	  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
